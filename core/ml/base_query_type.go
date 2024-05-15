@@ -1,0 +1,27 @@
+package ml
+
+const (
+	EQ = iota
+	NE
+	GT
+	GE
+	LT
+	LE
+	LIKE
+	NOT_LIKE
+	LIKE_LEFT
+	LIKE_RIGHT
+	IS_NULL
+	IS_NOT_NULL
+	IN
+	NOT_IN
+	IN_STR
+	NOT_IN_STR
+	FIND_IN_SET
+	FIND_IN_SET_STR
+)
+
+const (
+	ORDER_BY_ASC  = "ASC"
+	ORDER_BY_DESC = "DESC"
+)
