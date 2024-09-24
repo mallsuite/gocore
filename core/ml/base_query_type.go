@@ -19,6 +19,7 @@ const (
 	NOT_IN_STR
 	FIND_IN_SET
 	FIND_IN_SET_STR
+	FIND_IN_SET_STR_STR
 )
 
 const (
